@@ -1,0 +1,240 @@
+a.logo{
+	padding:0;
+}
+.tab1{
+	margin: 30px 0;
+	color: #666;
+}
+@media screen and (min-width: 1200px){
+	.container h2 {
+    font-size: 30px;
+	}
+}
+@media screen and (min-width: 992px){
+	.container h2 {
+    font-size: 28px;
+	}
+}
+@media screen and (min-width: 768px){
+	.container h2 {
+    font-size: 26px;
+	}
+}
+.container h2{
+	color: #0059b2;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px){
+	.container p{
+    font-size: 18px;
+	}
+}
+@media screen and (min-width: 992px){
+	.container p {
+    font-size: 17px;
+	}
+}
+@media screen and (min-width: 768px){
+	.container p {
+    font-size: 16px;
+	}
+}
+.container p{
+	text-align: center;
+	letter-spacing: 1px;
+	color: #999;
+	margin:20px 0 40px 0;
+}
+.tab1 .row .col{
+	padding: 20px;
+}
+@media screen and (min-width: 992px){
+	.tab1 .row .col{
+   	 width: 50%;
+	}
+}
+.row .col .left{
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 10px;
+}
+.row .col .right{
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: top;
+}
+.row .col .right del{
+	color: #777;
+}
+.tab2{
+	padding: 60px 20px;
+	background-color: #eee;
+	text-align: center;
+}
+@media screen and (min-width: 768px){
+	.tupian{
+   	 float: right;
+	}
+}
+.tab2 img{
+	width: 40%;
+	height: 40%;
+}
+@media screen and (min-width: 768px){
+	.wenzi{
+   	 float: left;
+   	 margin-top: 33px;
+	}
+}
+.tab3{
+	text-align: center;
+	padding: 60px 20px;
+}
+.tab3 img{
+	margin-top: 33px;
+	width: 65%;
+	height: 65%;
+	vertical-align: middle;
+}
+.tab3 .fangshi{
+	margin-top: 33px;
+	text-align: center;
+}
+.footer{
+	background-color: #666;
+	border-top: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+.footer p{
+	margin: 0 0 10px;
+	color: #eee;
+	font-size: 15px;
+}
+.zixun{
+	background: url(../img/bg.jpg);
+	margin: 50px 0 0;
+	color: #ccc;
+}
+@media screen and (min-width: 768px){
+	.zixun{
+		padding: 48px 0;
+	}
+}
+.contents{
+	background-color: #eee;
+	padding: 40px 0;
+}
+.info-content{
+	background-color: #fff;
+	margin: 0 0 20px 0;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-content img{
+	margin: 12px 0;
+}
+@media screen and (min-width: 1200px){
+	.info-content h4{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 992px){
+	.info-content h4{
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 768px){
+	.info-content h4{
+		font-size: 16px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+.info-content h4{
+	color: #333;
+	padding: 2px 0 0 0;
+}
+.info-content p{
+	margin:0 0 10px;
+	color: #777;
+	font-size: 13px;
+}
+.info-content p.date{
+	float: left;
+}
+.info-right{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote{
+	margin:0;
+	padding:0;
+}
+.info-right blockquote h2{
+	font-size: 20px;
+	color: #333;
+	padding: 2px;
+	position: relative;
+	left: -120px;
+}
+.info-right img{
+	margin:12px 0;
+	padding: 0;
+}
+.info-right h4{
+	color: #333;
+	font-size: 16px;
+	padding: 2px 0 0 0;
+	line-height: 1.6;
+}
+.info-right p{
+	margin: 0 0 10px;
+	font-size: 15px;
+	color: #333;
+	margin-left: -50px;
+}
+.bg{
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42;
+	background-color: #fff;
+	border:1px solid #ddd;
+	border-radius: 4px;
+}
+.bg img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bg .zi{
+	padding: 9px;
+	color: #333;
+	text-align: center;
+}
+.bg .zi p{
+	font-size: 14px;
+	color: #666;
+}
+.about{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.about h3{
+	color: #333;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	margin:0 0 10px 0;
+}
+.about p{
+	line-height: 2;
+	margin:0 0 10px;
+	color: #666;
+	text-align: left;
+}
